@@ -34,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/cisneConCorbata/agecalculatorapp](https://github.com/cisneConCorbata/agecalculatorapp)
+- Live Site URL: [https://cisneconcorbata.github.io/agecalculatorapp/](https://cisneconcorbata.github.io/agecalculatorapp/)
 
 ## My process
 
