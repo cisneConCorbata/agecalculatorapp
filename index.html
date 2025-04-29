@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="main-container">
+      <section class="form-container" role="region" aria-labelledby="date-input">
+        <form name="input-birthday">
+          <fieldset name="date-input" id="name-input">
+            <div class="day-field">
+              <label for="input-dd">Day</label>
+              <input type="text" id="input-dd" class="form-field" placeholder="DD" required>
+              <p id="error-dd" class="error-msg"></p>
+            </div>
+
+            <div class="month-field">
+              <label for="input-mm">Month</label>
+              <input type="text" id="input-mm" class="form-field" placeholder="MM" required>
+              <p id="error-mm" class="error-msg"></p>
+            </div>
+
+            <div class="year-field">
+              <label for="input-yyyy">Year</label>
+              <input type="text" id="input-yyyy" class="form-field" placeholder="YYYY" required>
+              <p id="error-yyyy" class="error-msg"></p>
+            </section>
+          </div>
+
+          <div class="submit-container">
+            <hr class="hr1">
+            <input type="button" id="submit" class="submit" onclick="validate()"><span class="sr-only">Submit</span>
+            <hr class="hr2">
+          </div>
+          
+        </form>
+      </section>
+
+      <section class="results-container" role="region" aria-labelledby="results-yyyy, results-mm, results-dd">
+        <div class="results-container"><span class="results" id="results-yyyy">- -</span> year<span id="years">s</span></div>
+        <div class="results-container"><span class="results" id="results-mm">- -</span> month<span id="months">s</span></div>
+        <div class="results-container"><span class="results" id="results-dd">- -</span> day<span id="days">s</span></div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
